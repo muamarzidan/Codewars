@@ -6,11 +6,6 @@
 
 // ANSWER
 
-// clean code
-function positiveSum(arr) {
-    return arr.filter((num) => num > 0).reduce((acc, num) => acc + num, 0);
-}
-
 // bar-bar code
 function positiveSum(arr) {
     let hasil = 0;
@@ -21,6 +16,7 @@ function positiveSum(arr) {
     }
     return hasil;
 }
+
 // another bar-bar code
 function positiveSum(arr) {
     let hasil = 0;
@@ -31,4 +27,12 @@ function positiveSum(arr) {
     });
     return hasil;
 }
+
+// clean code
+function positiveSum(arr) {
+    return arr.filter((angka) => angka > 0).reduce((hasil, angka) => hasil + angka, 0);
+}
+
+// more clean code
+const positiveSum = (arr) => arr.reduce((hasil, angka) => angka > 0 ? hasil + angka : hasil, 0);
 
