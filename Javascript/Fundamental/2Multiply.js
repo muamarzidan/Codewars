@@ -2,6 +2,7 @@
 // function multiply(a, b){
 //     a * b
 // }
+
 // Sortby : Popularity
 // Type : Fundamental
 // Difficulty: 8 kyu / easiest

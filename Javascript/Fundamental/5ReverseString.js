@@ -1,6 +1,9 @@
 //Question : Complete the solution so that it reverses the string passed into it.
-
 // Example 'world'  =>  'dlrow' , 'word'   =>  'drow'
+
+// Sortby : Popularity
+// Type : Fundamental
+// Difficulty: 8 kyu / easiest
 
 
 // ANSWER

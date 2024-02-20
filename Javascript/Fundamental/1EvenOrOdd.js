@@ -1,4 +1,5 @@
 // Question : Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
+
 // Sortby : Popularity
 // Type : Fundamental
 // Difficulty: 8 kyu / easiest
