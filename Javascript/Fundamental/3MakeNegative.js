@@ -16,38 +16,38 @@
 // ANSWER
 
 //bar bar code
-// function makeNegative(num) {
-//   if (num > 0) {
-//       return -num;
-//   } else {
-//       return num;
-//   }
-// }
-
-//simple code
-// function makeNegative(num) {
-//   return num < 0 ? num : -num;
-// }
+function makeNegative(num) {
+    if (num > 0) {
+        return -num;
+    } else {
+        return num;
+    }
+}
 
 // clean code
-// function makeNegative(num) {
-//   return -Math.abs(num);
-// }
+function makeNegative(num) {
+    return num < 0 ? num : -num;
+}
+
+// clean code
+function makeNegative(num) {
+    return -Math.abs(num);
+}
 
 // more clean code
-// const makeNegative = (num) => -Math.abs(num);
+const makeNegative = (num) => -Math.abs(num);
 
-// more complex code
+// complex code
 function makeNegative(num) {
-  if (typeof num !== 'number') {
-      return 'Inputan / Assigment is not a number';
-  } else if (num === 0) {
-      return 0;
-  } else if (num > 0) {
-      return -Math.abs(num);
-  } else if (num < 0) {
-      return num;
-  } else {
-      'Nothing there'
-  }
+    if (typeof num !== 'number') {
+        return 'Inputan / Assigment is not a number';
+    } else if (num === 0) {
+        return 0;
+    } else if (num > 0) {
+        return -Math.abs(num);
+    } else if (num < 0) {
+        return num;
+    } else {
+        'Nothing there'
+    }
 }

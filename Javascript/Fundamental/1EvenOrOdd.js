@@ -8,18 +8,18 @@
 // ANSWER
 
 // bar bar code
-// function evenOrOdd(number) {
-//     if (number % 2 === 0) {
-//         return "Even";
-//     } else {
-//         return "Odd";
-//     }
-// }
+function evenOrOdd(number) {
+    if (number % 2 === 0) {
+        return "Even";
+    } else {
+        return "Odd";
+    }
+}
 
 // simple code
-// function evenOrOdd(number) {
-//     return number % 2 === 0 ? "Even" : "Odd";
-// }
+function evenOrOdd(number) {
+    return number % 2 === 0 ? "Even" : "Odd";
+}
 
-// simple and clean code
+// more clean code
 const evenOrOdd = number => number % 2 === 0 ? "Even" : "Odd"; 
