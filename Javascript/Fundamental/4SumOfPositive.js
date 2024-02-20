@@ -32,6 +32,8 @@ function positiveSum(arr) {
 function positiveSum(arr) {
     return arr.filter((angka) => angka > 0).reduce((hasil, angka) => hasil + angka, 0);
 }
+// clean code
+const positiveSum = (arr) => arr.filter((angka) => angka > 0).reduce((hasil, angka) => hasil + angka, 0);
 
 // more clean code
 const positiveSum = (arr) => arr.reduce((hasil, angka) => angka > 0 ? hasil + angka : hasil, 0);
